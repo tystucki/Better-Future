@@ -1,0 +1,24 @@
+{
+  "name": "capstone-main",
+  "version": "1.0.0",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tystucki/Better-Future.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tystucki/Better-Future/issues"
+  },
+  "homepage": "https://github.com/tystucki/Better-Future#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1"
+  },
+  "description": ""
+}

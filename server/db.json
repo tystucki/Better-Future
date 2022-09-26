@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Housing",
+        "picture": "put url here",
+        "cost": "put cost here",
+        "description": "cost of housing"
+    },
+    {
+        "id": 2,
+        "name": "Groceries",
+        "picture": "put url here",
+        "cost": "put cost here",
+        "description": "cost of eating"
+    },
+    {
+        "id": 3,
+        "name": "Transportation",
+        "picture": "put url here",
+        "cost": "put cost here",
+        "description": "cost of transportation"
+    }
+]

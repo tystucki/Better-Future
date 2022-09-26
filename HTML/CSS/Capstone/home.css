@@ -10,6 +10,10 @@
 body {
     overflow-x: hidden; 
     background-color: #F3F2EB; 
+    /* display: flex;
+    justify-content: center; */
+
+    
 }
 
 #nav {
@@ -23,6 +27,7 @@ body {
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    
 }
 
 
@@ -70,4 +75,65 @@ body {
     border-radius: 16px;
     margin-top: 5%;
     margin-left: 40%;
+}
+
+#logo {
+    height: 100px;
+}
+
+.sec2 {
+    width: 400px;
+    margin-left: 135px;
+}
+
+.sec3 {
+    width: 400px;
+    margin-left: 585px;
+}
+
+.container{
+   width: 80%;
+   position: absolute;
+   margin-left: 100px;
+
+}
+
+
+.rothIra {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+
+}
+
+
+.calculator {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    background-color: black;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+#calcBtn {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    justify-content: space-between;
+}
+
+#display {
+    border-radius: 10px;
+    width: 207px;
+    height: 40px;
+}
+
+#specialBtn {
+    background-color: #A9E494;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    justify-content: space-between;
 }
