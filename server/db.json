@@ -2,22 +2,22 @@
     {
         "id": 1,
         "name": "Housing",
-        "picture": "put url here",
         "cost": "put cost here",
+        "date": "09/10/2022",
         "description": "cost of housing"
     },
     {
         "id": 2,
         "name": "Groceries",
-        "picture": "put url here",
         "cost": "put cost here",
+        "date": "09/11/2022",
         "description": "cost of eating"
     },
     {
         "id": 3,
         "name": "Transportation",
-        "picture": "put url here",
         "cost": "put cost here",
+        "date": "09/12/2022",
         "description": "cost of transportation"
     }
 ]
