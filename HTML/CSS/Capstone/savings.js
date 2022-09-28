@@ -1,4 +1,3 @@
-
 const baseURL = 'http://localhost:5020'
 const addButton = document.querySelector('#addExpense')
 

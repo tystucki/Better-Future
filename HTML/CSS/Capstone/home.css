@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    /* display: flex; */
+    /* justify-content: center; */
+
 }
 
 body {
@@ -16,16 +19,9 @@ body {
     
 }
 
-#mobileApp {
-    /* margin-top: ; */
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-}
 
 #projection {
     display: flex;
-
     justify-content: center;
     padding-left: 300px;
 }
@@ -35,7 +31,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: auto;
+    width: 100%;
     padding: 30px 100px;
     display: flex;
     justify-content: space-between;
@@ -61,6 +57,7 @@ body {
     padding: 6px 15px;
     color: var(--primary);
     border-radius: 20px;
+    
 }
 
 #nav ul li a:hover,
@@ -73,7 +70,8 @@ body {
     color: black;
     font-size: 35px;
     margin-top: 225px;
-    margin-left: 15%;
+    display: flex;
+    justify-content: center;
 }
 
 .sec button {
@@ -83,7 +81,9 @@ body {
     text-align: center;
     text-decoration: none;
     font-size: 20px;
-    display: inline-block;
+    /* display: inline-block; */
+    display: flex;
+    justify-content: center;
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 16px;
@@ -97,25 +97,13 @@ body {
     background-color: white;
 }
 
-.sec2 {
-    width: 400px;
-    margin-left: 135px;
-}
 
-.sec3 {
-    width: 400px;
-    margin-left: 585px;
-}
-.sec4 {
-    width: 400px;
-    margin-left: 135px
-}
 
 .container{
    width: 80%;
    position: absolute;
    margin-left: 100px;
-
+    /* background-color: red; */
 }
 
 
@@ -159,11 +147,6 @@ body {
     justify-content: space-between;
 }
 
-/* #spendingBox {
-    background-color: red;
-    color: blue;
-    font-size: 50px;
-} */
 #expenseDisplay {
     margin-top: 300px;
     background-color: none;
@@ -177,6 +160,24 @@ body {
     height: 40px;
 }
 
-#spendingBox {
-    /* margin-top: 0px; */
+
+#mobileApp {
+    display: block;
+    justify-content: center;
+    padding: 10px;
+    float: left;
 }
+
+.info-cards {
+    width: 300px;
+    border: 2px solid #A9E494;
+    border-radius: 15px;
+    justify-content: space-between;
+    background-color: white;
+    padding: 40px 20px;
+    display: flex;
+    float: right;
+    margin-right: 300px;
+
+}
+
