@@ -1,23 +1,23 @@
 [
     {
         "id": 1,
-        "name": "Housing",
-        "cost": "put cost here",
+        "name": "Truck Payment",
+        "cost": "$799.00",
         "date": "09/10/2022",
-        "description": "cost of housing"
+        "description": "September Truck Payment"
     },
     {
         "id": 2,
-        "name": "Groceries",
-        "cost": "put cost here",
+        "name": "Auto Insurance",
+        "cost": "$199.99",
         "date": "09/11/2022",
-        "description": "cost of eating"
+        "description": "September Auto Insurance"
     },
     {
         "id": 3,
-        "name": "Transportation",
-        "cost": "put cost here",
+        "name": "Lulu T-Shirt",
+        "cost": "$84.00",
         "date": "09/12/2022",
-        "description": "cost of transportation"
+        "description": "New black t-shirt from Lulu Lemon"
     }
 ]

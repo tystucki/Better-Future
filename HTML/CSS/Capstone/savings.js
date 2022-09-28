@@ -33,9 +33,6 @@ const createExpenseCard = (expense) => {
 
     expenseCard.innerHTML = `
     <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
         <p>${expense.name}</p>
         <p>${expense.cost}</p>
         <p>${expense.date}</p>
