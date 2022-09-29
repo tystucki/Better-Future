@@ -3,25 +3,26 @@
 
 // const form = document.querySelector('form')
 
-// function investmentCalc(){
+// function investmentCalc(e){
+//     e.preventDefault()
 
-let starting = document.querySelector('#starting')
-let contribution = document.querySelector('#contribution')
-let current = document.querySelector('#currentAge')
-let retirement = document.querySelector('#retirementAge')
-let rate = document.querySelector('#returnRate')
+const investmentCalc = () => {
+let startingInput = document.querySelector('#startingInput')
+let contributionInput = document.querySelector('#contributionInput')
+let currentInput = document.querySelector('#currentInput')
+let retirementInput = document.querySelector('#retirementInput')
+let returnInput = document.querySelector('#returnInput')
 
-let years = (retirement - current)
+let newCalc = {
+    starting: startingInput.value,
+    contribution: contributionInput.value,
+    current: currentInput.value,
+    retirement: retirementInput.value,
+    return: retirementInput.value
+}
+.then((res) => {
+    let years = (retirementInput - currentInput)
+})
 console.log(years)
 
-
-// function investmentCalc() {
-//     let years = (retirement - current)
-//     console.log(years)
-// }
-// console.log(years)
-// console.log('hello world')
-
-// redirect input
-//write the math
-//add event listner for the calculate button
+}

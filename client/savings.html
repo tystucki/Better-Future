@@ -24,20 +24,28 @@
         </ul>
     </nav>
 
-    <body>
-       
-        <main>
-            <div id="spendingBox"></div>
-            <!-- <h3>Spending</h3> -->
 
-               <section id="expenseDisplay"> </section>
-            <input id="nameInput" placeholder="what did you buy?"/>
-            <input id="costInput" placeholder="how much did it cost?"/>
-            <input id="dateInput" placeholder="date"/>
+<header id="spaceHeader"></header>
+    <body>
+            <div id="expenseForm">
+                <!-- <h1>Spending</h1> -->
+              
+            <input id="nameInput" placeholder="what did you buy?"  />
+            <input id="costInput" placeholder="amount $$"/>
+            <input type="date" id="dateInput" placeholder="date"/>
             <input id="descriptionInput" placeholder="description"/>
             <button id="addExpense">Submit</button>
         </div>
-        </main>
+
+        <br>
+
+        <div id="expenseDisplay"> </div>
+
+        <div id="totalSpending">
+            <h1>Total Spending:  $</h1>
+            <h1 id="totalS"></h1>
+        </div>
+        
 
 
             <script src="https://unpkg.com/axios/dist/axios.min.js"></script>

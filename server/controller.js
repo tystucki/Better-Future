@@ -1,6 +1,6 @@
 
 const expenses = require('./db.json')
-let expenseId = 4
+let expenseId = 5
 // Get, Put, Delete, Push
 
 module.exports = {
@@ -33,5 +33,7 @@ module.exports = {
         expenses.splice(index, 1)
 
         res.status(200).send(expenses)
-    }
+    },
+
+    
 }

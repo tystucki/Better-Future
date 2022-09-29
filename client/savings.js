@@ -3,7 +3,7 @@ const addButton = document.querySelector('#addExpense')
 
 const showExpenses = document.querySelector('#expenseDisplay')
 
-// Axio request to get the drinks array
+// Axio request to get the expense array
 // Loop over that array
 // Create expense cards for each item in the array
 
@@ -19,13 +19,16 @@ const getAllExpenses = () => {
 }
 
 const displayExpenses = (arr) => {
+    let totalSpending = 0;
     for(let i = 0; i < arr.length; i++){
         createExpenseCard(arr[i])
+       let splitCost = arr[i].cost.split('$')
+       totalSpending += Number(splitCost[1])
+       
     }
+    document.querySelector('#totalS').textContent = totalSpending
 }
-//name
-//cost
-//description
+
 const createExpenseCard = (expense) => {
     const expenseCard = document.createElement('section')
     expenseCard.classList.add('expense-card')
@@ -33,7 +36,7 @@ const createExpenseCard = (expense) => {
     expenseCard.innerHTML = `
     <br></br>
         <p>${expense.name}</p>
-        <p>${expense.cost}</p>
+        <p class='spending'>${expense.cost}</p>
         <p>${expense.date}</p>
         <p>${expense.description}</p>
         <button onclick="deleteExpense(${expense.id})"> Delete </button>
@@ -76,3 +79,4 @@ axios.post(`${baseURL}/addExpense`, newExpense)
 }
 addButton.addEventListener('click', addExpense)
 getAllExpenses()
+

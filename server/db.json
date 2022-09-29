@@ -1,23 +1,31 @@
 [
     {
         "id": 1,
-        "name": "Truck Payment",
+        "name": "Truck Payment (auto-pay)",
         "cost": "$799.00",
-        "date": "09/10/2022",
-        "description": "September Truck Payment"
+        "date": "22-09-10",
+        "description": "Truck Payment - Credit Union"
     },
     {
         "id": 2,
-        "name": "Auto Insurance",
+        "name": "Auto Insurance (auto-pay)",
         "cost": "$199.99",
-        "date": "09/11/2022",
-        "description": "September Auto Insurance"
+        "date": "22-09-12",
+        "description": "Auto Insurance - Progressive"
     },
     {
         "id": 3,
-        "name": "Lulu T-Shirt",
-        "cost": "$84.00",
-        "date": "09/12/2022",
-        "description": "New black t-shirt from Lulu Lemon"
+        "name": "Phone Bill (auto-pay)",
+        "cost": "$134.00",
+        "date": "22-09-14",
+        "description": "Phone Bill - T-mobile"
+    },
+    {
+        "id": 4,
+        "name": "Apple Music(auto-pay)",
+        "cost": "$10.00",
+        "date": "22-09-16",
+        "description": "Apple Music Subscription - Apple"
     }
+
 ]

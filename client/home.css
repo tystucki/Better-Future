@@ -19,20 +19,13 @@ body {
     
 }
 
-
-#projection {
-    display: flex;
-    justify-content: center;
-    padding-left: 300px;
-}
-
 #nav {
     background: white;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 30px 100px;
+    padding: 0px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -104,6 +97,7 @@ body {
 }
 
 
+/* Investing CSS */
 
 .container{
    width: 80%;
@@ -112,6 +106,11 @@ body {
     /* background-color: red; */
 }
 
+#projection {
+    display: flex;
+    justify-content: center;
+    padding-left: 300px;
+}
 
 .rothIra {
     display: inline-block;
@@ -153,20 +152,6 @@ body {
     justify-content: space-between;
 }
 
-#expenseDisplay {
-    margin-top: 300px;
-    background-color: none;
-    color: black;
-    font-size: 14px;
-    height: 1px;
-    width: 250px;
-}
-
-#expense-card {
-    height: 40px;
-}
-
-
 #mobileApp {
     display: block;
     justify-content: center;
@@ -175,27 +160,52 @@ body {
 }
 
 .info-cards {
-    width: 300px;
+    width: 500px;
     border: 2px solid #A9E494;
     border-radius: 15px;
     background-color: white;
     padding: 40px 20px;
-    display: flex;
+    display: inline-block;
     justify-content: center;
-    margin-bottom: 10px;
-    /* float: right; */
-    /* margin-right: 30px; */
+    margin-top: 20px;
+    margin-bottom: 100px;
+  
 
 }
+#spaceHeader {
+    height: 250px;
+}
 
-#spendingBox {
-    /* height: 400px; */
-    background-color: blue;
+/* Saving CSS */
+#expenseForm {
+    margin-left: 2%;
+    height: 50px;
+    vertical-align: top;
 }
 
 .expense-card {
     background-color: white;
     height: 200px;
-    width: 600px;
+    width: 300px;
+    border: 3px solid darkgreen;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+#expenseDisplay {
+    display: inline-block;
+    margin-left: 2%;
+}
+
+#totalSpending {
+    height: 80px;
+    width: 500px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    float: right;
+    margin-right: 22%;
+    border: darkgreen solid 2px;
+    border-radius: 20px;
 }
 
